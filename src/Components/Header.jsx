@@ -2,10 +2,7 @@ import React, { useEffect, useState } from "react";
 import { HeaderData } from "../constants/Constants";
 import { IoMenuSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
-import { motion } from "framer-motion";
-import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
-import { CgMail } from "react-icons/cg";
-import { Button, ButtonGroup, Link, Text } from "@chakra-ui/react";
+
 
 const Header = () => {
   const [scrolling, setScrolling] = useState(false);

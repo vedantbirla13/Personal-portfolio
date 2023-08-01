@@ -1,6 +1,6 @@
-import {  Button, ButtonGroup, Link, Text } from "@chakra-ui/react";
+import {  ButtonGroup, Link, Text } from "@chakra-ui/react";
 import React from "react";
-import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { CgMail } from "react-icons/cg";
 
 const Footer = () => {
