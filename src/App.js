@@ -8,7 +8,6 @@ import Contact from "./pages/Contact.jsx";
 import Footer from "./Components/Footer.jsx";
 import ScrollToTop from "./Components/ScrollToTop.js";
 import "./App.css";
-import AnimatedBackground from "./Components/AnimatedBackground.js";
 import Loader from "./Components/Loader.jsx";
 import { useEffect, useState } from "react";
 

@@ -1,7 +1,5 @@
 import React from "react";
-// import BackgroundAnimation from "../Components/BackgroundAnimation";
-import { Box, Button, Container, SimpleGrid, Text } from "@chakra-ui/react";
-import BackgroundAnimation from "../Components/BackgroundAnimation";
+import { Button, Container, SimpleGrid, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import resume from "../images/Vedant_Birla.pdf"
 import Coding_svg from "../Components/Coding_gif";
