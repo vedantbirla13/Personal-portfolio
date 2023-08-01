@@ -1,23 +1,13 @@
-import animationData from "../images/animation_lkphpscc.json"
-import Lottie from "react-lottie";
+import animationData from "../images/animation_lks60cxq.json"
+import { useLottie } from "lottie-react";
 
 export default function Coding_svg() {
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice"
-        }
-      };
-    
-    return (
-      <div>
-        <Lottie 
-          options={defaultOptions}
-          height={420}
-          width={600}
-        />
-      </div>
-    );
+  const options = {
+    animationData: animationData,
+    loop: true
+  };
+
+  const { View } = useLottie(options);
+
+  return <>{View}</>;
   }

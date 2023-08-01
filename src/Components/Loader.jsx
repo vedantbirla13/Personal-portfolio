@@ -1,23 +1,15 @@
 import animationData from "../images/animation_lkqjxe4g.json"
-import Lottie from "react-lottie";
+import { useLottie } from "lottie-react";
 
 export default function Loader() {
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice"
-        }
-      };
-    
-    return (
-      <div className="flex justify-center items-center">
-            <Lottie 
-              options={defaultOptions}
-              height={700}
-              width={700}
-            /> 
-      </div>
-    );
+  const options = {
+    animationData: animationData,
+    loop: true
+  };
+
+  const { View } = useLottie(options);
+
+  return <div className="flex justify-center items-center">
+    {View}
+    </div>;
   }
