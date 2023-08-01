@@ -13,7 +13,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
-import ProgressBar from "../constants/Progress_bar";
+import ProgressBar from "../Constants/Progress_bar";
 
 const Skills = () => {
   return (
