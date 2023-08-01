@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header.jsx";
+import Home from "./pages/Home.jsx";
+import AboutMe from "./pages/AboutMe.jsx";
+import Projects from "./pages/Projects.jsx";
+import Skills from "./pages/Skills.jsx";
+import Education from "./pages/Education.jsx";
+import Contact from "./pages/Contact.jsx";
+import Footer from "./Components/Footer.jsx";
+import ScrollToTop from "./Components/ScrollToTop.js";
+import "./App.css";
+import AnimatedBackground from "./Components/AnimatedBackground.js";
+import Loader from "./Components/Loader.jsx";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [load, setLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoad(false);
+    }, 1200);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {
+        load === true ? (
+          <Loader />
+        ) : (
+          <main>
+          <ScrollToTop />
+          <Header />
+          <Home />
+          <AboutMe />
+          <Projects />
+          <Skills />
+          <Education />
+          <Contact />
+          <Footer />
+          </main>
+        )
+      }
+    </>
   );
 }
 
