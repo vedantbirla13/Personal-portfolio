@@ -13,10 +13,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import  {ProjectData}  from "../Constants/Constants";
-import { AiFillGithub } from "react-icons/ai"
-import { BsBoxArrowInUpRight } from "react-icons/bs"
-
+import { ProjectData } from "../Constants/Constants";
+import { AiFillGithub } from "react-icons/ai";
+import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 const Projects = () => {
   const settings = {
@@ -43,7 +42,7 @@ const Projects = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
-         centerMode:true,
+          centerMode: true,
         },
       },
       {
@@ -51,7 +50,7 @@ const Projects = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerMode:true,
+          centerMode: true,
         },
       },
     ],
@@ -79,12 +78,15 @@ const Projects = () => {
           {/* <img src={underlinee} alt="" height="0" /> */}
         </div>
 
-        <Slider {...settings} >
+        <Slider {...settings}>
           {ProjectData.map((item) => (
-            <Card maxW="sm" maxH="lg" variant="outline"
-            boxSize="fit-content" // Set the box size to fit its content
-            transition="transform 0.3s" // Adding transition for smooth effect
-            _hover={{ transform: 'scale(1.1)' }} // Scale up by 10% on hover
+            <Card
+              maxW="sm"
+              maxH="lg"
+              variant="outline"
+              boxSize="fit-content" // Set the box size to fit its content
+              transition="transform 0.3s" // Adding transition for smooth effect
+              _hover={{ transform: "scale(1.1)" }} // Scale up by 10% on hover
             >
               <CardBody>
                 <Image src={item.image} />
