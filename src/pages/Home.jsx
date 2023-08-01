@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className="text-[50px]  font-bold font-Poppins text-slate-700 mb-5 ">
             Hi, I am <span className="text-yellow-500">Vedant Birla.</span>{" "}
           </h1>
-          <Text fontFamily="Poppins" className=" text-[16px]  text-slate-700 mb-10  break-normal">
+          <Text fontFamily="Poppins" className=" text-[16px]  text-slate-700 mb-10  break-all">
             I am a 2022 Graduate in CS from SIES Graduate School of Technology
             and currently working as a Associate Software Engineer at Capgemini.
             I consider myself as a motivated, diligent, and technically
