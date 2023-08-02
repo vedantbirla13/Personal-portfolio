@@ -2,8 +2,8 @@
 
 # dependencies
 /node_modules
-/src/constants
-/src/images/
+/src/Constants
+/src/images
 /src/pages/Contact.jsx
 /.pnp
 .pnp.js
