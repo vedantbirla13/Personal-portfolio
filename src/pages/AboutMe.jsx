@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { motion } from "framer-motion";
-import { KnowMe } from "../Constants/Constants";
+import { KnowMe } from "../utils/Constants/Constants"
 import { staggerContainer, textVariant } from "../utils/motion";
 
 const AboutMe = () => {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HeaderData } from "../Constants/Constants";
+import { HeaderData } from "../utils/Constants/Constants";
 import { IoMenuSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
