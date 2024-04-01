@@ -4,7 +4,7 @@ import AboutMe from "./pages/AboutMe.jsx";
 import Projects from "./pages/Projects.jsx";
 import Skills from "./pages/Skills.jsx";
 import Education from "./pages/Education.jsx";
-import Contact from "./pages/Contact.jsx";
+import Contact from "./pages/ContactMe.jsx";
 import Footer from "./Components/Footer.jsx";
 import ScrollToTop from "./Components/ScrollToTop.js";
 import "./App.css";
