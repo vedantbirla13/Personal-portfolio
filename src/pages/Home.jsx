@@ -1,7 +1,6 @@
 import React from "react";
 import { Button, Container, SimpleGrid, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import resume from "../images/Vedant_resume.pdf"
 import Coding_svg from "../Components/Coding_gif";
 
 const Home = () => {
@@ -46,7 +45,7 @@ const Home = () => {
             <Button
               as="a"
               target="_blank"
-              href={resume}
+              href={"https://drive.google.com/file/d/1U8LNVn1-yEDHL5QTzCZm5_9PfKR4-sq6/view?usp=drive_link"}
               size="lg"
               minH="16"
               fontWeight="normal"
