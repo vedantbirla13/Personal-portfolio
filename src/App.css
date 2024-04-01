@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+@layer utilities {
+  .underline_tag {
+    @apply relative before:content-[''] after:absolute  after:block after:w-full  after:h-[2px] 
+        after:bottom-[-2px] after:left-0 after:bg-[#FACC15]
+        after:hover:scale-x-100 after:scale-x-0 after:origin-top-left
+        after:transition after:ease-in-out after:duration-300;
+  }
+
+  /* .box_shadow {
+    @apply rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  } */
+}
