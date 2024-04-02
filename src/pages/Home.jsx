@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Container, SimpleGrid, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import resume from "../images/Vedant_resume.pdf"
 import Coding_svg from "../Components/Coding_gif";
 
 const Home = () => {
@@ -45,7 +46,7 @@ const Home = () => {
             <Button
               as="a"
               target="_blank"
-              href={"https://drive.google.com/file/d/1U8LNVn1-yEDHL5QTzCZm5_9PfKR4-sq6/view?usp=drive_link"}
+              href={resume}
               size="lg"
               minH="16"
               fontWeight="normal"
@@ -76,4 +77,17 @@ const Home = () => {
 
 export default Home;
 
-
+{
+  /* {
+   <svg
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+      version="1.1"
+      viewBox="0 0 2560 100"
+      x="0"
+      y="0"
+    >
+      <polygon className="fill-purple" points="2560 0 2560 100 0 100" />
+    </svg> 
+} */
+}
