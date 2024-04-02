@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HeaderData } from "../utils/Constants/Constants";
+import { HeaderData } from "../Constants/Constant";
 import { IoMenuSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
@@ -24,23 +24,23 @@ const Header = () => {
     };
   }, []);
 
-  const sidebar = {
-    open: () => ({
-      transition: {
-        type: "spring",
-        stiffness: 20,
-        restDelta: 2,
-      },
-    }),
-    closed: {
-      transition: {
-        delay: 0.5,
-        type: "spring",
-        stiffness: 400,
-        damping: 40,
-      },
-    },
-  };
+  // const sidebar = {
+  //   open: () => ({
+  //     transition: {
+  //       type: "spring",
+  //       stiffness: 20,
+  //       restDelta: 2,
+  //     },
+  //   }),
+  //   closed: {
+  //     transition: {
+  //       delay: 0.5,
+  //       type: "spring",
+  //       stiffness: 400,
+  //       damping: 40,
+  //     },
+  //   },
+  // };
 
   return (
     <div id="header" className="mb-250">

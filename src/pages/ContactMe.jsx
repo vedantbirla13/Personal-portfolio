@@ -4,7 +4,7 @@ import {
     Text,
     Heading,
   } from "@chakra-ui/react";
-  import React, { useEffect, useRef, useState } from "react";
+  import React, { useRef, useState } from "react";
   import emailjs from "@emailjs/browser";
   
   const ContactMe = () => {
@@ -41,11 +41,11 @@ import {
       let isValid = true;
   
       // Validate name
-      if(formData.user_name == "") {
+      if(formData.user_name === "") {
         newFormErros.user_name = "Name is required ";
         isValid = false
       }
-      if(formData.user_email == "") {
+      if(formData.user_email === "") {
         newFormErros.user_email = "Email is required ";
         isValid = false
       } else if(!validateEmail(formData.user_email)) {
@@ -53,7 +53,7 @@ import {
         isValid = false
       }
   
-      if(formData.message == "") {
+      if(formData.message === "") {
           newFormErros.message = "Message is required ";
         
         isValid = false
