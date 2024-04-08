@@ -83,7 +83,7 @@ export const ProjectData = [
         description :"Blog it as the name describes is a website where users can login and write blogs. Whereas only the admins can approve the blogs and has full control over which blog to display and which to not",
         tech: "MERN stack, Redux",
         url:"https://github.com/vedantbirla13/Blog_it",
-        src: "https://blog-it-three.vercel.app/"
+        src: "https://blog-itt.vercel.app/"
     },
     {
         image:Chatify,
@@ -98,7 +98,7 @@ export const ProjectData = [
         description :"MovieTime is a website with collections of movies just like netflix, Where the user can toggle between categories such as Popular, top-rated & upcoming. User can alos fin useful links like IMDB etc ",
         tech: "Reactjs, Express, NodeJs",
         url:"https://github.com/vedantbirla13/movie-Time",
-        src: "https://movietime-dun.vercel.app/"
+        src: "https://movietimee.vercel.app/"
     },
     {
         image:crypto,
