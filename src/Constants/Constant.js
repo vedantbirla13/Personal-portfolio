@@ -4,6 +4,7 @@ import movietime from "../images/movietime.png";
 import Chatify from "../images/Chatify.png";
 import Blogit from "../images/Blogit.png";
 import Myntra from "../images/myntra.png";
+import Twitter from "../images/Twitter.png"
 
 export const HeaderData = [
   {
@@ -68,14 +69,14 @@ export const KnowMe = [
 ];
 
 export const ProjectData = [
-  // {
-  //     image:onecart,
-  //     title:"OneCart",
-  //     description :"OneCart is an multi vendor Ecommerce website where user can buy products and seller can sell their products. The user can give ratings and reviews as well.",
-  //     tech: "ReactJS, MongoDb, NodeJs, Redux",
-  //     url:"https://github.com/vedantbirla13/OneCart_frontend",
-  //     src: "https://one-cart-frontend.vercel.app/"
-  // },
+  {
+      image:Twitter,
+      title:"Social media app",
+      description :"ShareVibe is a full stack social media webiste with all the latest functionalities like tweeting, uploading images, liking as well as commenting on others posts and many more",
+      tech: "ReactJS, MongoDb, TailwindCSS, Tanstack query",
+      url:"https://social-media-mrbb.onrender.com/",
+      src: "https://github.com/vedantbirla13/social-media"
+  },
   {
     image: Blogit,
     title: "Blog IT",
