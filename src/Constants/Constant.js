@@ -74,8 +74,9 @@ export const ProjectData = [
       title:"Social media app",
       description :"ShareVibe is a full stack social media webiste with all the latest functionalities like tweeting, uploading images, liking as well as commenting on others posts and many more",
       tech: "ReactJS, MongoDb, TailwindCSS, Tanstack query",
-      url:"https://social-media-mrbb.onrender.com/",
-      src: "https://github.com/vedantbirla13/social-media"
+      url:"https://github.com/vedantbirla13/social-media",
+      src: "https://social-media-mrbb.onrender.com/"
+      
   },
   {
     image: Blogit,
