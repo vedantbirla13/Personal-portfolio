@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Container, SimpleGrid, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import resume from "../images/Vedant_resume.pdf"
+import resume from "../images/VEDANT_BIRLA_RESUME.pdf"
 import Coding_svg from "../Components/Coding_gif";
 
 const Home = () => {
