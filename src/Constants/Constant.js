@@ -1,10 +1,12 @@
-import flipkart from "../images/flipkart.png";
-import crypto from "../images/crypto.png";
+import nike from "../images/nike.png";
+import music from "../images/music.png";
 import movietime from "../images/movietime.png";
-import Chatify from "../images/Chatify.png";
 import Blogit from "../images/Blogit.png";
+import portfolio from "../images/portfolio.png";
 import Myntra from "../images/myntra.png";
 import Twitter from "../images/Twitter.png"
+import crypto from "../images/crypto.png";
+import Chatify from "../images/Chatify.png";
 
 export const HeaderData = [
   {
@@ -79,6 +81,23 @@ export const ProjectData = [
       
   },
   {
+    image: nike,
+    title: "Nike UI",
+    description:
+      "Nike Shoes is a user interface implementation for the Nike website, showcasing the latest trends and popular styles in footwear. The site is fully mobile responsive, ensuring an optimal browsing experience on all devices.",
+    tech: "Reactjs, TailwindCSS",
+    url: "https://github.com/vedantbirla13/nike-frontend",
+    src: "https://nikee-shoes.vercel.app/"
+  },
+  {
+      image:music,
+      title:"Music school",
+      description :"The Music School website features a modern UI design, offering various sections dedicated to music education. It is fully mobile responsive, ensuring accessibility and an optimal user experience across all devices.",
+      tech: "Typescript, Aceternity UI, TailwindCSS",
+      url: "https://github.com/vedantbirla13/music_school",
+      src:"https://music-schooll.vercel.app/"
+  },
+  {
     image: Blogit,
     title: "Blog IT",
     description:
@@ -86,24 +105,6 @@ export const ProjectData = [
     tech: "NextJS, MERN stack, Redux",
     url: "https://github.com/vedantbirla13/Blog_it",
     src: "https://blog-itt.vercel.app/",
-  },
-  {
-    image: Chatify,
-    title: "Chatify",
-    description:
-      "Chatify is an end to end realtime messagin app where the user can login make friends by searching their name and start chatting in real-time. It also has a group chat feature where many people can chat at once",
-    tech: "Reactjs, ChakraUI, SocketIO",
-    url: "https://github.com/vedantbirla13/Chat_app",
-    src: "https://chatify-xzz5.onrender.com/",
-  },
-  {
-    image: Myntra,
-    title: "Myntra clone",
-    description:
-      "Myntra clone which has functionality like Searching products, Add to bag, Remove from bag, with an responsive design using Bootstrap and scalable wesbite using redux as state management tool",
-    tech: "Reactjs, Bootstrap, Redux",
-    url: "https://github.com/vedantbirla13/Ecommerce",
-    src: "https://ecommerce-ecom.vercel.app/",
   },
   {
     image: movietime,
@@ -114,31 +115,44 @@ export const ProjectData = [
     url: "https://github.com/vedantbirla13/movie-Time",
     src: "https://movietimee.vercel.app/",
   },
+  // {
+  //   image: crypto,
+  //   title: "Crypto Maniac",
+  //   description:
+  //     "Crypto Maniac is a website for Crypto lovers, where the user can find all the information regarding different cryptos with Search & login functionality. The user can their favorite cryptos in watchlist ",
+  //   tech: "Reactjs, Firebase",
+  //   url: "https://github.com/vedantbirla13/Crypto-maniac",
+  //   src: "https://crypto-maniac-d05b5.web.app/",
+  // },
   {
-    image: crypto,
-    title: "Crypto Maniac",
+    image: portfolio,
+    title: "Personal Portfolio",
     description:
-      "Crypto Maniac is a website for Crypto lovers, where the user can find all the information regarding different cryptos with Search & login functionality. The user can their favorite cryptos in watchlist ",
-    tech: "Reactjs, Firebase",
-    url: "https://github.com/vedantbirla13/Crypto-maniac",
-    src: "https://crypto-maniac-d05b5.web.app/",
-  },
-  {
-    image: flipkart,
-    title: "Flipkart UI",
-    description:
-      "Flipkar is a Ui clone of flipkart original webiste , which is created using react, with all the UI functionaliy of login page, checkout page, Add to cart as well as the weishList page",
-    tech: "Reactjs",
-    url: "https://github.com/vedantbirla13/Flipkart-frontend",
+      "The personal portfolio website highlights my journey, projects, education, and contact information. It features a sleek, modern design and is fully mobile responsive, ensuring an optimal viewing experience on all devices.",
+    tech: "Reactjs, ChakraUI",
+    url: "https://github.com/vedantbirla13/personal-portfolio",
+    src: "https://personal-porttfolio.vercel.app/",
   },
   // {
-  //     image:shareprompt,
-  //     title:"share Prompt",
-  //     description :"With the view of increasing demand for ChatGPT, I have created a website sharePrompt where the user can login and share Prompts for other members & which can be directly copied and pasted in chatGPT fot effective use ",
-  //     tech: "NextJs",
-  //     url: "https://github.com/vedantbirla13/Share_Prompt",
-  //     src:"https://share-prompt-six.vercel.app/"
+  //   image: Chatify,
+  //   title: "Chatify",
+  //   description:
+  //     "Chatify is an end to end realtime messagin app where the user can login make friends by searching their name and start chatting in real-time. It also has a group chat feature where many people can chat at once",
+  //   tech: "Reactjs, ChakraUI, SocketIO",
+  //   url: "https://github.com/vedantbirla13/Chat_app",
+  //   src: "https://chatify-xzz5.onrender.com/",
   // },
+  {
+    image: Myntra,
+    title: "Myntra clone",
+    description:
+      "Myntra clone which has functionality like Searching products, Add to bag, Remove from bag, with an responsive design using Bootstrap and scalable wesbite using redux as state management tool",
+    tech: "Reactjs, Bootstrap, Redux",
+    url: "https://github.com/vedantbirla13/Ecommerce",
+    src: "https://ecommerce-ecom.vercel.app/",
+  },
+
+
 ];
 
 export const Links = [

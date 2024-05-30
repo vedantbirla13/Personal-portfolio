@@ -39,7 +39,7 @@ const Skills = () => {
 
         <Tabs outline="1px" outlineColor="#1d1160">
           <TabList>
-            <Tab fontFamily="Poppins" fontSize="14px" color="#1d1160" >Programming Languages</Tab>
+            <Tab fontFamily="Poppins" fontSize="14px" color="#1d1160" >Programming Languages & frameworks</Tab>
             <Tab fontFamily="Poppins"  fontSize="14px" color="#1d1160">Languages</Tab>
             <Tab fontFamily="Poppins"  fontSize="14px" color="#1d1160">Soft Skills</Tab>
           </TabList>
@@ -81,7 +81,7 @@ const Skills = () => {
                   <Text color="1d1160" fontFamily="Poppins">
                     NextJS
                   </Text>
-                  <ProgressBar value={64} max={100} colorScheme="facebook" />
+                  <ProgressBar value={77} max={100} colorScheme="facebook" />
                 </Box>
                 <Box>
                   <Text color="1d1160" fontFamily="Poppins">
@@ -95,6 +95,24 @@ const Skills = () => {
                   </Text>
                   <ProgressBar value={78} max={100} colorScheme="facebook" />
                 </Box>
+                <Box>
+                  <Text color="1d1160" fontFamily="Poppins">
+                    Tailwind CSS
+                  </Text>
+                  <ProgressBar value={80} max={100} colorScheme="facebook" />
+                </Box>
+                <Box>
+                  <Text color="1d1160" fontFamily="Poppins">
+                    Material UI
+                  </Text>
+                  <ProgressBar value={84} max={100} colorScheme="facebook" />
+                </Box>
+                <Box>
+                  <Text color="1d1160" fontFamily="Poppins">
+                    ShadCn
+                  </Text>
+                  <ProgressBar value={75} max={100} colorScheme="facebook" />
+                </Box>
               </Stack>
             </TabPanel>
             <TabPanel>
@@ -103,19 +121,19 @@ const Skills = () => {
                   <Text color="1d1160" fontFamily="Poppins">
                     English
                   </Text>
-                  <ProgressBar value={82} max={100} colorScheme="facebook" />
+                  <ProgressBar value={88} max={100} colorScheme="facebook" />
                 </Box>
                 <Box>
                   <Text color="1d1160" fontFamily="Poppins">
                     Hindi
                   </Text>
-                  <ProgressBar value={85} max={100} colorScheme="facebook" />
+                  <ProgressBar value={90} max={100} colorScheme="facebook" />
                 </Box>
                 <Box>
                   <Text color="1d1160" fontFamily="Poppins">
                     Marathi
                   </Text>
-                  <ProgressBar value={78} max={100} colorScheme="facebook" />
+                  <ProgressBar value={87} max={100} colorScheme="facebook" />
                 </Box>
               </Stack>
             </TabPanel>
@@ -125,7 +143,7 @@ const Skills = () => {
                   <Text color="1d1160" fontFamily="Poppins">
                     Communication
                   </Text>
-                  <ProgressBar value={75} max={100} colorScheme="facebook" />
+                  <ProgressBar value={85} max={100} colorScheme="facebook" />
                 </Box>
                 <Box>
                   <Text color="1d1160" fontFamily="Poppins">

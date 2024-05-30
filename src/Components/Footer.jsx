@@ -5,11 +5,13 @@ import { CgMail } from "react-icons/cg";
 
 const Footer = () => {
 
+  const date = new Date().getFullYear();
+
   return (
     <div className="w-full h-max bg-[#1d1160] mt-[30px] p-4">
       <div className="text-center  items-center justify-evenly flex-col  sm:flex-row flex">
         <Text fontFamily="Poppins" color="white" className="text-[14px]">
-        &copy; Vedant Birla. All rights reserved 
+        &copy; {date} Vedant Birla. All rights reserved 
         </Text>
         <ButtonGroup spacing="6" background="transparent" className="pt-2 sm:pt-0 "   >
           <Link
